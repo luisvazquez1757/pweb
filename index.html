@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Cultura mundial</title>
+</head>
+
+<body>
+    <header class="BarraNav">
+        <nav class="navbar navbar-expand-lg navbar-light"
+            style="background: linear-gradient(to bottom, rgb(62, 2, 110), rgb(119, 0, 255));">
+            <div class="container-fluid">
+                <!--  Botono inicial NOMBRE/LOGO  -->
+                <a class="navbar-brand" href="index.html" style="color: white;">
+                    <img src="img/logo.png" alt="" width="24" height="24" class="d-inline-block align-text-rigth">
+                    Cultura Mundial
+                </a>
+
+                <!-- Boton desplegable adapt movil -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation" style="color: rgb(169, 94, 255);">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--  Fin Boton desplegable adapt movil  -->
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html"
+                                style="color: white;">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- Boton de encuesta -->
+                            <a class="nav-link" href="#" style="color: white;">Encuesta</a>
+                        </li>
+                        <!-- Boton de conocenos -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="conocenos.html" style="color: white;">Conocenos</a>
+                        </li>
+
+                        <!--  BOTON DESPLEGLABE  -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                                Países
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                                <li><a class="dropdown-item" href="#">Italia</a></li>
+                                <li><a class="dropdown-item" href="#">Japon</a></li>
+                                <li><a class="dropdown-item" href="#">Perú</a></li>
+                                <li><a class="dropdown-item" href="#">México</a></li>
+                                <li><a class="dropdown-item" href="#">España</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- BOTON DESPLEGABLE FINAL    -->
+
+                    <!--  Iniciar Sesión/Registrarte  -->
+                    <ul class="navbar-nav flex-wrap ms-md-auto">
+                        <!-- Boton de Iniciar sesión -->
+                        <li class="nav-item">
+                            <a class="nav-link boton btn btn-primary" href="login.html"
+                                style="color: white; border-radius: 13px; margin-right: 5px; margin-top: 4px; text-align: center;">Inicia
+                                sesion</a>
+                        </li>
+                        <!-- Boton de Registrarte -->
+                        <li class="nav-item">
+                            <a class="nav-link boton btn btn-primary" href="#"
+                                style="color: white;  border-radius: 13px; margin-right: 5px; margin-top: 4px; text-align: center;">Registrate</a>
+                        </li>
+                    </ul>
+                    <!--  Terminar Iniciar Sesión/Registrarte  -->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--  Inicia SECTION  -->
+
+    <section>
+        <div>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <img src="img/mexico.png" class="d-block w-100" alt="banner 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Italia.png" class="d-block w-100" alt="banner 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/japon.png" class="d-block w-100" alt="banner 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/peru.png" class="d-block w-100" alt="banner 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/españa.png" class="d-block w-100" alt="banner 3">
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="container-fluid encuesta btn btn-primary " style="border-radius: 55px;">
+            <a href="#">
+                <h3 class="text-center">¡HAZ LA ENCUESTA DEL MES!</h3>
+            </a>
+        </div>
+
+        <!--  FILA 1  -->
+        <div>
+            <div class="container">
+                <div class="row">
+                    <!-- PRIMER COLUMNA -->
+                    <div class="col contenedor">
+                        <a href="https://www.google.com.mx/">
+                            <figure>
+                                <img src="img/mexicoOR.png" alt="">
+                                <div class="capa">
+                                    <p>Conoce de las grandes cosas de México.</p>
+                                </div>
+                            </figure>
+                            <h3 style="text-align: center;">México</h3>
+                        </a>
+                    </div>
+                    <!-- SEGUNDA COLUMNA -->
+                    <div class="col contenedor">
+                        <a href="https://www.google.com.mx/">
+                            <figure>
+                                <img src="img/italiaOR.png" alt="">
+                                <div class="capa">
+                                    <p>Conoce de las grandes cosas de Italía.</p>
+                                </div>
+                            </figure>
+                            <h3 style="text-align: center;">Italía</h3>
+                        </a>
+                    </div>
+                    <!-- TERCER COLUMNA -->
+                    <div class="col contenedor">
+                        <a href="https://www.google.com.mx/">
+                            <figure>
+                                <img src="img/japonOR.png" alt="">
+                                <div class="capa">
+                                    <p>Conoce de las grandes cosas de Japón.</p>
+                                </div>
+                            </figure>
+                            <h3 style="text-align: center;">Japón</h3>
+                        </a>
+                    </div>
+                    <!-- CIERRE DIV ROW-->
+                </div>
+                <!--  CIERRE CONTAINER  -->
+            </div>
+        </div>
+
+        <div>
+            <div class="container">
+                <div class="row">
+                    <!-- PRIMER COLUMNA -->
+                    <div class="col contenedor">
+                        <a href="https://www.google.com.mx/">
+                            <figure>
+                                <img src="img/peruOR.png" alt="">
+                                <div class="capa">
+                                    <p>Conoce de las grandes cosas de Perú.</p>
+                                </div>
+                            </figure>
+                            <h3 style="text-align: center;">Perú</h3>
+                        </a>
+                        <!--  CIERRE PRIMERA COLUMNA  -->
+                    </div>
+                    <!-- SEGUNDA COLUMNA -->
+                    <div class="col contenedor">
+                        <a href="https://www.google.com.mx/">
+                            <figure>
+                                <img src="img/españaOR.png" alt="">
+                                <div class="capa">
+                                    <p>Conoce de las grandes cosas de España.</p>
+                                </div>
+                            </figure>
+                            <h3 style="text-align: center;">España</h3>
+                        </a>
+                        <!--  CIERRE SEGUNDA COLUMNA  -->
+                    </div>
+                    <!--  CIERRE CONTAINER  -->
+                </div>
+            </div>
+
+    </section>
+
+    <!-- TERMINA SECTION-->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!--  INICIA FOOTER  -->
+    <footer style="border-top: 1000px;">
+        <p style="color:white;">Terminos y condiciones</p>
+        <p style="color:white">Derechos reservados ©</p>
+    </footer>
+    <!--  TERMINA FOOTER  -->
+
+    <!--  Script JS BOOTSTRAP -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--  END Script JS BOOTSTRAP -->
+</body>
+
+</html>
